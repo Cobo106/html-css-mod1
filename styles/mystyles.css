@@ -35,12 +35,13 @@ body {
     float: left;
     
   }
-  div{
   
+
+  .ourstory{
     padding:50px;
     margin:20px;
-    
   }
+
   h3{
     color: goldenrod;
     padding-left: 14em;
@@ -79,6 +80,6 @@ body {
     align-content: stretch;
   }
 
-  Aboutus{
+  .textbutton{
     color:goldenrod;
   }
