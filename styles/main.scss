@@ -1,8 +1,26 @@
 @use "./vendor/normalize";
 @use "./partials/colors";
 
-
-h2{
+h1{
     color: colors.$primary-color;
+}
+
+.primary{
+    color: colors.$primary-color;
+}
+
+nav{
+    a{
+        color: colors.$primary-color;
+    }
+    background-color: white;
+    ul{
+        li{
+            list-style: none;
+            a{
+                color: colors.$font-color;
+            }
+        }
+    }
 }
 

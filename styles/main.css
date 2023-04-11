@@ -307,6 +307,23 @@ template {
   display: none;
 }
 
-h2 {
-  color: #790909;
+h1 {
+  color: #d11f1f;
+}
+
+.primary {
+  color: #d11f1f;
+}
+
+nav {
+  background-color: white;
+}
+nav a {
+  color: #d11f1f;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: #414141;
 }/*# sourceMappingURL=main.css.map */
