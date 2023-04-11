@@ -7,17 +7,17 @@ h1{
 }
 
 .primary{
-    @include mixins.primary-button();
+    @include mixins.primary-button(blue);
 }
 
 nav{
     a{
-        color: colors.$primary-color;
+        color: colors.$p;
     }
     background-color: white;
     ul{
         li{
-            list-style:none;
+            list-style: none;
             a{
                 color: colors.$font-color;
             }

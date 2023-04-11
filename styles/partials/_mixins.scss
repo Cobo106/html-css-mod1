@@ -1,6 +1,6 @@
-@mixin primary-button() {
+@mixin primary-button($color) {
     font-size: 20px;
-    background-color: tomato;
+    background-color: $color;
     color: white;
     border-radius: 15px;
     padding: 5px 10px;
