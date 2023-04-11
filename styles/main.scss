@@ -1,8 +1,8 @@
 @use "./vendor/normalize";
-
+@use "./partials/colors";
 
 
 h2{
-    color:#790909;
+    color: colors.$primary-color;
 }
 
