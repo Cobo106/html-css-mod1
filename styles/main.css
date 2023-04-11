@@ -308,7 +308,7 @@ template {
 }
 
 h1 {
-  color: #d11f1f;
+  color: #ff6347;
 }
 
 .primary {
@@ -316,13 +316,15 @@ h1 {
   background-color: tomato;
   color: white;
   border-radius: 15px;
+  padding: 5px 10px;
+  border-style: none;
 }
 
 nav {
   background-color: white;
 }
 nav a {
-  color: #d11f1f;
+  color: #ff6347;
 }
 nav ul li {
   list-style: none;
