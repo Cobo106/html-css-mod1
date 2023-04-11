@@ -1,8 +1,26 @@
-@mixin primary-button($color) {
+@mixin primary-button($primary-font-color) {
     font-size: 20px;
     background-color: $color;
     color: white;
     border-radius: 15px;
     padding: 5px 10px;
     border-style: none;
+    cursor:pointer;
+    &:hover{
+       background-color:lighten($color, $amount: 20%); 
+    }
+    
+}
+
+@mixin secondary-button($color){
+    font-size: 20px;
+    background-color: $color;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border-style: none;
+    cursor:pointer;
+    &:hover{
+       background-color:lighten($color, $amount: 20%);
+    }
 }

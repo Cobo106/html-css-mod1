@@ -1,18 +1,28 @@
 @use "./vendor/normalize";
 @use "./partials/colors";
 @use "./partials/mixins";
+@use "./partials/typography";
 
+body{
+    font-family: 'Dosis', sans-serif;
+}
 h1{
     color: colors.$primary-color;
+    font-family: 'Marck Script', cursive;
 }
 
 .primary{
     @include mixins.primary-button(blue);
 }
 
+.secondary{
+    @include mixins.primary-button(#db57ca);
+}
+
 nav{
     a{
-        color: colors.$p;
+        color: colors.$primary-color;
+        font-family: 'Montserrat',sans-serif;
     }
     background-color: white;
     ul{
@@ -27,4 +37,5 @@ nav{
 
 .buttons{
     margin-top: 20px;
+    @include mixins.$primary-font-color(#575757);
 }
