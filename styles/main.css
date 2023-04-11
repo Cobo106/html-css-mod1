@@ -312,7 +312,10 @@ h1 {
 }
 
 .primary {
-  color: #d11f1f;
+  font-size: 20px;
+  background-color: tomato;
+  color: white;
+  border-radius: 15px;
 }
 
 nav {
@@ -326,4 +329,8 @@ nav ul li {
 }
 nav ul li a {
   color: #414141;
+}
+
+.buttons {
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */

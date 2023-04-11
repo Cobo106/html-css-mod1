@@ -1,12 +1,16 @@
 @use "./vendor/normalize";
 @use "./partials/colors";
+@use "./partials/mixins";
 
 h1{
     color: colors.$primary-color;
 }
 
 .primary{
-    color: colors.$primary-color;
+    font-size: 20px;
+    background-color: tomato;
+    color: white;
+    border-radius: 15px;
 }
 
 nav{
@@ -24,3 +28,6 @@ nav{
     }
 }
 
+.buttons{
+    margin-top: 20px;
+}
