@@ -11,6 +11,9 @@ h1{
     font-family: 'Marck Script', cursive;
 }
 
+h2{
+    color:black
+}
 .primary{
     @include mixins.primary-button($dark-background);
 }
