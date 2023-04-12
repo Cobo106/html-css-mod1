@@ -40,7 +40,7 @@ nav{
 
 .buttons{
     margin-top: 20px;
-    @include mixins.primary-button(colors.$primary-font-color);
+    @include mixins.primary-button(colors.$dark-background);
     
 
 }
