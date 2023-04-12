@@ -319,8 +319,8 @@ h1 {
   font-family: "Marck Script", cursive;
 }
 
-h2 {
-  color: black;
+.logo {
+  color: #DB8D33;
 }
 
 .primary {
@@ -334,13 +334,12 @@ h2 {
   cursor: pointer;
 }
 .primary:hover {
-  background-color: #747474;
+  background-color: #0e0e0e;
 }
 
 .secondary {
   font-size: 20px;
-  background-color: #414141;
-  max-width: fit-content;
+  background-color: #150300;
   color: white;
   border-radius: 15px;
   padding: 5px 10px;
@@ -348,7 +347,7 @@ h2 {
   cursor: pointer;
 }
 .secondary:hover {
-  background-color: #747474;
+  background-color: #ae1900;
 }
 
 nav {
@@ -367,15 +366,4 @@ nav ul li a {
 
 .buttons {
   margin-top: 20px;
-  font-size: 20px;
-  background-color: #414141;
-  max-width: fit-content;
-  color: white;
-  border-radius: 15px;
-  padding: 5px 10px;
-  border-style: none;
-  cursor: pointer;
-}
-.buttons:hover {
-  background-color: #747474;
 }

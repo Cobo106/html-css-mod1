@@ -11,15 +11,16 @@ h1{
     font-family: 'Marck Script', cursive;
 }
 
-h2{
-    color:black
+.logo{
+    color: colors.$secondary-font-color;
 }
+
 .primary{
     @include mixins.primary-button(colors.$dark-background);
 }
 
 .secondary{
-    @include mixins.primary-button(#414141);
+    @include mixins.secondary-button(colors.$darker-background);
 }
 
 nav{
@@ -40,7 +41,6 @@ nav{
 
 .buttons{
     margin-top: 20px;
-    @include mixins.primary-button(colors.$dark-background);
-    
 
 }
+
