@@ -7,16 +7,16 @@ body{
     font-family: 'Dosis', sans-serif;
 }
 h1{
-    color: colors.$primary-color;
+    color: colors.$secondary-font-color;
     font-family: 'Marck Script', cursive;
 }
 
 .primary{
-    @include mixins.primary-button(blue);
+    @include mixins.primary-button($dark-background);
 }
 
 .secondary{
-    @include mixins.primary-button(#db57ca);
+    @include mixins.primary-button(#414141);
 }
 
 nav{
@@ -37,5 +37,7 @@ nav{
 
 .buttons{
     margin-top: 20px;
-    @include mixins.$primary-font-color();
+    @include mixins.primary-button(colors.$primary-font-color);
+    
+
 }
