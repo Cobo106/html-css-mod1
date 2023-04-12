@@ -319,14 +319,7 @@ h1 {
   font-family: "Marck Script", cursive;
 }
 
-.primary {
-  font-size: 20px;
-  background-color: blue;
-  color: white;
-  border-radius: 15px;
-  padding: 5px 10px;
-  border-style: none;
-}
+
 
 nav {
   background-color: white;
