@@ -1,4 +1,4 @@
-@mixin primary-button($primary-font-color) {
+@mixin primary-button($dark-background) {
     font-size: 20px;
     background-color: $dark-background;
     color: white;
@@ -7,7 +7,7 @@
     border-style: none;
     cursor:pointer;
     &:hover{
-       background-color:lighten($color, $amount: 20%); 
+       background-color:lighten($dark-background, $amount: 20%); 
     }
     
 }
