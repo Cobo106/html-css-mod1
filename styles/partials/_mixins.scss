@@ -1,6 +1,7 @@
 @mixin primary-button($dark-background) {
     font-size: 20px;
     background-color: $dark-background;
+    max-width: fit-content;
     color: white;
     border-radius: 15px;
     padding: 5px 10px;
